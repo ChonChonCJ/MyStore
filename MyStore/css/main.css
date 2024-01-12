@@ -28,9 +28,10 @@ margin:0px auto;/*---- ทำให้ layout อยู่ตรงกลาง 
 
 .menu-bar {
   display:flex;
-  height:72px;
   justify-content: space-between;
   align-items: center;
+  height:72px;
+  
 }
 
 .nav-list {
@@ -41,6 +42,7 @@ margin:0px auto;/*---- ทำให้ layout อยู่ตรงกลาง 
 .nav-item {
 margin-left: 24px;
 }
+
 /*---- Hero Section ----*/
 .hero-section {
   background-image: url("../images/hero-background.jpg"); /* Photo by Nicholas Kampouris on Unsplash */
