@@ -70,6 +70,8 @@ margin-left: 24px;
   font-weight:600;
   margin-bottom:12px;
 }
+
+
 .collection-item-one {
   background-image: linear-gradient(
       to bottom right,
@@ -78,6 +80,9 @@ margin-left: 24px;
     ),
     url("../images/classic-collection.jpg"); /* Photo by NordWood Themes on Unsplash */
 }
+
+
+
 .collection-item-two {
   background-image: linear-gradient(
       to bottom right,
