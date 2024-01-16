@@ -3,11 +3,14 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+
 .container {
 width: 100%;
 max-width:1200px;
 margin:0px auto;/*---- ทำให้ layout อยู่ตรงกลาง ----*/
 }
+
+
 
 .section {
   margin-bottom: 64px;
