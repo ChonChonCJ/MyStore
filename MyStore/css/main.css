@@ -61,6 +61,19 @@ margin-left: 24px;
 }
 
 /*---- Collection Section ----*/
+.collection-list {
+  display: flex;
+}
+
+.collection-list-layer-2 {
+  display:flex;
+  flex-direction:column;
+}
+
+.collection-list-layer-3 {
+  display:flex;
+}
+
 .collection-item {
   background-size: cover;
   background-position: 50% 82%;
