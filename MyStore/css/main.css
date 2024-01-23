@@ -114,6 +114,15 @@ margin-left: 24px;
 }
 
 /*---- Product Section ----*/
+.product-list {
+  display:flex;  /*  เบียดติดกันแบบ  flex shrink อัดติดกันใน container ต้องใช้ flex wrap มาช่วย */
+  flex-wrap: wrap;
+  margin-left: -16px;
+ -16px; /* ใส่เพื่อดึงให้ตำแหน่งของขอบดันมาอยู่ตรงกลางเท่าาๆกัน */
+}
+
+
+
 .product-item-title {
   font-size: 18px;
   font-weight:600;
@@ -125,6 +134,7 @@ margin-left: 24px;
 .product-item {
   width:calc(100%/3);/*---- ทำให้มีขนาด 1 ใน3 ของ parent element คือ product list ----*/
   margin-bottom: 16px;
+  padding: 0px 16px;
 }
 
 .product-item-image{
@@ -138,6 +148,9 @@ margin-left: 24px;
 .price {
   margin-top:24px;
 }
+
+
+
 /*---- About Section ----*/
 .about-content {
   display:flex; /* ให้ตัวหนังสือกับ flex อยู่ข้างกัน glex direction = row (default) */
