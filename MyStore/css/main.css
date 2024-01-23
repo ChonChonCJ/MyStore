@@ -139,3 +139,20 @@ margin-left: 24px;
   margin-top:24px;
 }
 /*---- About Section ----*/
+.about-content {
+  display:flex; /* ให้ตัวหนังสือกับ flex อยู่ข้างกัน glex direction = row (default) */
+}
+
+.about-image {
+  width: 50%;
+  height: 320px;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-right:24px;
+}
+
+.about-info {
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
